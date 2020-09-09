@@ -1,0 +1,10 @@
+version: '3'
+services:
+  jupyter:
+    build: .
+    image: symeneses/fastai
+    volumes:
+      - .:/home
+    ports:
+      - '8890:8888'
+    env_file: secret.env
