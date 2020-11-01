@@ -118,26 +118,99 @@ For a very nice explanation, go [here!](http://neuralnetworksanddeeplearning.com
 16. What do you need in order to train a model?
 ---
 
+A general mechanism that automatically update the weights. The mechanism used (for now) is the `Stochastic Gradient Descent (SGD)`.
+
 ---
 17. How could a feedback loop impact the rollout of a predictive policing model?
 ---
+Models predictions depends on historical data which can be biased. For example, a model to find a best fit for a job can give higher score to men, resulting in more men being hired, which will increase the bias in the data and therefore in the model. 
 
 ---
 18. Do we always have to use 224×224-pixel images with the cat recognition model?
 ---
+No, this is used in the example as old pretrained models has this input size. If you want to change it, the `ImageDataLoaders` has a parameter `item_tfms` used to transform every item. This can be used to resize the images with the transformation `Resize`.
 
 ---
 19. What is the difference between classification and regression?
 ---
+Classification is used to predict a `class` or `category` while `regression` tries to predict numeric values.
 
 ---
 20. What is a validation set? What is a test set? Why do we need them?
 ---
+The validation set is used to measure the accuracy or performance of the models on samples unseen by the model during training while tuning `hyperparameters` (number of layers, hidden units, etc). This is needed as the model can be `overfitting`, which means *memorizing* the training dataset. 
+The test set is used for the same reason with the final model.
 
 ---
 21. What will fastai do if you don't provide a validation set?
 ---
+By default it will assign `valid_pct` to 0.2, which means 20% of the data will be used for validation.
 
+---
+22. Can we always use a random sample for a validation set? Why or why not?
+---
+No, there are some cases when this should be avoided.
+- In classification, we want to split the data so that every class is represented (stratified sampling)
+- For time series, we want to split the data based on time as the model shouldn't "see" the future
+- In recommendation systems, the complete data of a user should be in the same dataset
+ 
+---
+23. What is overfitting? Provide an example.
+---
+When the model has almost an output for every input, including the noise but it doesn't generalize well, therefore it performs poorly with unseen data.
+
+---
+24. What is a metric? How does it differ from *"loss"*?
+---
+A metric evaluates the performance of the model. The main difference from loss is its purpose. The metrics is for us humans to compare the model, the loss function is used while training to update weights. For this reason, the loss function must be easy to derivate as that is required for the SGD to determine the direction in which weights should be updated.
+
+---
+25. How can pretrained models help?
+---
+Pretrained models save time and energy which is good for the environment as they were trained with a large dataset and can perform already some general task (ex. predicting the next word in a sentence). With a pretrained model, some layers stay frozen while some are fine-tuned using new data to customize the model for a specific use case (ex. classifying legal documents).
+
+---
+26. What is the *"head"* of a model?
+---
+The `head` is the one or more layers of the model which are fine tuned applying `transfer learning`.
+
+---
+27. What kinds of features do the early layers of a CNN find? How about the later layers?
+---
+The first layers are like filters that can detect features as edges, colors, shapes, etc. The last layers use the information gathered by the first layers to identify more complex patterns like textures, eyes or leaves.
+
+---
+28. Are image models only useful for photos?
+---
+No, they can be used also with spectrograms, medical data as X-Rays or computed tomography scan (CT scan), satellite imagery or videos. CNN can be used with data that is transformed to images as shown in the paper [Malware classification with deep convolutional neural networks](https://ieeexplore.ieee.org/abstract/document/8328749/).
+
+---
+29. What is an *"architecture"*?
+---
+It's the mathematical function we are trying to fit to map the inputs to the output. With the architecture, we are including some assumptions about the model. If we decide to train a linear model, we are assuming the relation between the input and output is lineal.
+
+---
+30. What is segmentation?
+---
+Segmentation is to classify every pixel of an image to determine to which object it belongs. The model is trained to color-code every pixel, so that every pixel that is a cat will be of the color X, every car will be of color Y.
+
+---
+31. What is `y_range` used for? When do we need it?
+---
+It's used to set a range for the predictions of a continuos variable.
+
+---
+32. What are *"hyperparameters"*?
+---
+Hyperparameters are parameters that define the model behavior and normally are not updated during training. Every algorithm has its specific hyperparameters but there are some common for neural networks (ex. learning rate, number of layers).
+
+---
+33. What's the best way to avoid failures when using AI in an organization?
+---
+- Be sure you have the data! DL doesn't work without it.
+- Follow a methodology that acknowledges the cyclic nature of a AI project like [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
+- Define business metrics to measure if your project brings value to the organization or not, measure this metric before the project for future comparisons
+- Set a simple baseline and iterate over it. It's better to fail early, all models are wrong so you don't need a perfect one, you need one that improves your business metric and is better that a simple deadline
 
 ## Further Research
 
