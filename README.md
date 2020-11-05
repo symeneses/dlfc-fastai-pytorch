@@ -15,6 +15,8 @@ I. Deep Learning in Practice
  - [Notebook](https://github.com/fastai/fastbook/blob/master/01_intro.ipynb)
  - [Questionnaire](questionnaires/chapter_1.md)
 2. From Model to Production
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/02_production.ipynb)
+ - [Questionnaire](questionnaires/chapter_2.md)
 3. Data Ethics
 
 II. Understanding fastai’s Applications
