@@ -50,9 +50,23 @@ IV. Deep Learning from Scratch
   - [Video](https://course.fast.ai/videos/?lesson=1)
   - Chapters covered: Chapter 1
 - Lesson 2 - Evidence and p values
+  - [Video](https://course.fast.ai/videos/?lesson=2)
+  - Chapters covered: Chapter 1, Chapter 2
 - Lesson 3 - Production and deployment
+  - [Video](https://course.fast.ai/videos/?lesson=3)
+  - Chapters covered: Chapter 4
 - Lesson 4 - SGD from scratch
+  - [Video](https://course.fast.ai/videos/?lesson=4)
+  - Chapters covered: Chapter 4
 - Lesson 5 - Data ethics
+  - [Video](https://course.fast.ai/videos/?lesson=5)
+  - Chapters covered: Chapter 3
 - Lesson 6 - Collaborative filtering
+  - [Video](https://course.fast.ai/videos/?lesson=6)
+  - Chapters covered: Chapter 5, Chapter 6, Chapter 7
 - Lesson 7 - Tabular data
+  - [Video](https://course.fast.ai/videos/?lesson=7)
+  - Chapters covered: Chapter 8, Chapter 9
 - Lesson 8 - Natural language - processing
+  - [Video](https://course.fast.ai/videos/?lesson=8)
+  - Chapters covered: Chapter 10
