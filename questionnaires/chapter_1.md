@@ -217,8 +217,15 @@ Hyperparameters are parameters that define the model behavior and normally are n
 ---
 1. Why is a GPU useful for deep learning? How is a CPU different, and why is it less effective for deep learning?
 ---
+CPUs industry focuses on reducing time of computing, optimizing `Latency`. GPUs, on the other hand, are meant to optimize the total `Throughput` of the system using multiple processors of relatively low capacity and a higher memory bandwidth. This makes the GPU ideal for algorithms that need parallel processing of large data.
+
+In deep learning, we need to apply linear operations (matrix multiplication, transpose, etc) on high dimensional data. GPUs can work with more data thanks to their memory and process it in parallel as they have more cores. 
+
 
 ---
 2. Try to think of three areas where feedback loops might impact the use of machine learning. See if you can find documented examples of that happening in practice.
 ---
 
+- Face recognition for law enforcement: [Amazon face recognition falsely matches 28 lawmakers with mugshots, ACLU says](https://www.theguardian.com/technology/2018/jul/26/amazon-facial-rekognition-congress-mugshots-aclu)
+- Bias in language translation: [Reducing gender bias in Google Translate](https://www.blog.google/products/translate/reducing-gender-bias-google-translate/)
+- Credit scorer biased against women: [Apple's 'sexist' credit card investigated by US regulator](https://www.bbc.com/news/business-50365609)
