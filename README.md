@@ -24,6 +24,8 @@ I. Deep Learning in Practice
 II. Understanding fastai’s Applications
 
 4. Under the Hood: Training a Digit Classifier
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/04_mnist_basics.ipynb)
+ - [Questionnaire](questionnaires/chapter_4.md)
 5. Image Classification
 6. Other Computer Vision Problems
 7. Training a State-of-the-Art Model
