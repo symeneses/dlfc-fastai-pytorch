@@ -27,10 +27,12 @@ II. Understanding fastai’s Applications
  - [Notebook](https://github.com/fastai/fastbook/blob/master/04_mnist_basics.ipynb)
  - [Questionnaire](questionnaires/chapter_4.md)
 5. Image Classification
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/05_pet_breeds.ipynb)
+ - [Questionnaire](questionnaires/chapter_5.md)
 6. Other Computer Vision Problems
 7. Training a State-of-the-Art Model
 8. Collaborative Filtering Deep Dive
-9. Tabular Modeling Deep Dive
+9.  Tabular Modeling Deep Dive
 10. NLP Deep Dive: RNNs
 11. Data Munging with fastai’s Mid-Level API
 
