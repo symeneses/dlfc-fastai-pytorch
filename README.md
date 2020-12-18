@@ -30,6 +30,8 @@ II. Understanding fastai’s Applications
  - [Notebook](https://github.com/fastai/fastbook/blob/master/05_pet_breeds.ipynb)
  - [Questionnaire](questionnaires/chapter_5.md)
 6. Other Computer Vision Problems
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/06_multicat.ipynb)
+ - [Questionnaire](questionnaires/chapter_6.md)
 7. Training a State-of-the-Art Model
 8. Collaborative Filtering Deep Dive
 9.  Tabular Modeling Deep Dive
@@ -75,6 +77,6 @@ IV. Deep Learning from Scratch
 - Lesson 7 - Tabular data
   - [Video](https://course.fast.ai/videos/?lesson=7)
   - Chapters covered: Chapter 8, Chapter 9
-- Lesson 8 - Natural language - processing
+- Lesson 8 - Natural language processing
   - [Video](https://course.fast.ai/videos/?lesson=8)
   - Chapters covered: Chapter 10
