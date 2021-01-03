@@ -33,6 +33,8 @@ II. Understanding fastai’s Applications
  - [Notebook](https://github.com/fastai/fastbook/blob/master/06_multicat.ipynb)
  - [Questionnaire](questionnaires/chapter_6.md)
 7. Training a State-of-the-Art Model
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/07_sizing_and_tta.ipynb)
+ - [Questionnaire](questionnaires/chapter_7.md)
 8. Collaborative Filtering Deep Dive
 9.  Tabular Modeling Deep Dive
 10. NLP Deep Dive: RNNs
