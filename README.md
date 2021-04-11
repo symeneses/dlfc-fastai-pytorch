@@ -42,6 +42,8 @@ II. Understanding fastai’s Applications
  - [Notebook](https://github.com/fastai/fastbook/blob/master/09_tabular.ipynb)
  - [Questionnaire](questionnaires/chapter_9.md)
 10. NLP Deep Dive: RNNs
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/10_nlp.ipynb)
+ - [Questionnaire](questionnaires/chapter_10.md)
 11. Data Munging with fastai’s Mid-Level API
 
 III. Foundations of Deep Learning
