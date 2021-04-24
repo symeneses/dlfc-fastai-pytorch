@@ -45,6 +45,8 @@ II. Understanding fastai’s Applications
  - [Notebook](https://github.com/fastai/fastbook/blob/master/10_nlp.ipynb)
  - [Questionnaire](questionnaires/chapter_10.md)
 11. Data Munging with fastai’s Mid-Level API
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/11_midlevel_data.ipynb)
+ - [Questionnaire](questionnaires/chapter_11.md)
 
 III. Foundations of Deep Learning
 
