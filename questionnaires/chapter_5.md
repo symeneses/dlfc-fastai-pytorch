@@ -183,12 +183,12 @@ The first value will be the learning rate for the earliest layer, equidistant va
 1cycle learning decreases the learning rate at the end of one cycle and it's at that training stage where the model can reach optimal performance. If we use `early stopping`, the model may not overfit but with a 1cycle policy, we can get better results if the model is trained from scratch for the number of epochs where the best results were previously observed.
 
 ---
-1.  What is the difference between resnet50 and resnet101?
+22.  What is the difference between `resnet50` and `resnet101`?
 ---
 The number specifies the *capacity* of the model in terms of layers and therefore parameters.
 
 ---
-23. What does to_fp16 do?
+23. What does `to_fp16` do?
 ---
 It converts the model tensors to half-precision floating point or fp16. This speeds up training by 2-3x and reduces GPU memory consumption.
   
@@ -203,7 +203,7 @@ Leslie Smith introduced the learning rate finder in 2015, and since then he has 
 
 
 >It’s widely accepted that the learning rate is the most important hyperparameter in deep learning. Decreasing learning rates is a common technique to reach optimal values, the paper proposes cyclical training rates (CLR) which have cycles where the learning rate linearly (`triangular policy`) or exponentially (`exp_range policy`) increases and then decreases within a range of values. Experimental results indicate that the stepsize (iterations to reach the maximum value) should be set to 2-8 times the iterations per epoch. After 3 cycles or 6*stepsize iterations, the training is almost done and the learning rates should drop till reach optimal values. 
-To find the LR range, the author suggested training the model for 4-8 epochs starting with a low LR and taking as reference the values where the accuracy starts to improve becomes poor.
+To find the LR range, the author suggested training the model for 4-8 epochs starting with a low LR and taking as reference the values where the accuracy starts to fall.
 
 
 - 2018 [A disciplined approach to neural network hyper-parameters: Part 1--learning rate, batch size, momentum, and weight decay](https://arxiv.org/pdf/1803.09820.pdf)
