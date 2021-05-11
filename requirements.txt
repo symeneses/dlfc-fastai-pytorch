@@ -1,4 +1,4 @@
-fastai
+fastai>=2.3.1
 graphviz
 ipywidgets
 jupyterlab
