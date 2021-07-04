@@ -51,6 +51,8 @@ II. Understanding fastai’s Applications
 III. Foundations of Deep Learning
 
 12. A Language Model from Scratch
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/12_nlp_dive.ipynb)
+ - [Questionnaire](questionnaires/chapter_12.md)
 13. Convolutional Neural Networks
 14. ResNets
 15. Application Architectures Deep Dive
@@ -89,4 +91,4 @@ IV. Deep Learning from Scratch
   - Chapters covered: Chapter 8, Chapter 9
 - Lesson 8 - Natural language processing
   - [Video](https://course.fast.ai/videos/?lesson=8)
-  - Chapters covered: Chapter 10
+  - Chapters covered: Chapter 10, Chapter 12
