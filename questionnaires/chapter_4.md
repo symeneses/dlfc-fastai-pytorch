@@ -131,7 +131,7 @@ The weights can't never values that are optimal if the steps are too big. The va
 The gradient is a function to calculate the rate a function is increasing in every point. If the gradient of a function is non-zero, the direction of the gradient is the direction in which the function increases most quickly if we move from that point. If the gradient is zero, we are at stationary point.
 
 ---
-1.  Do you need to know how to calculate gradients yourself?
+19.  Do you need to know how to calculate gradients yourself?
 ---
 To deploy models and be a deep learning practitioner, no. It's recommended to understand their definition, geometric interpretation and applications. 
 
@@ -222,7 +222,7 @@ t_base[3, 0]
 ```
 
 ---
-1.  What are the "bias" parameters in a neural network? Why do we need them?
+28.  What are the "bias" parameters in a neural network? Why do we need them?
 ---
 These are the parameters that influence the output no matter the values in the input. When the values are zero, the output will be equal to the bias, which is necessary to give flexibility to the layer.
 
