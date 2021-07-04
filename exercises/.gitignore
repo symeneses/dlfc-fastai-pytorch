@@ -1,0 +1,5 @@
+# Notebooks
+.ipynb_checkpoints/*
+
+# Flair
+resources/
