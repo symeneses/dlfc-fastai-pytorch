@@ -86,7 +86,7 @@ from fastai.vision.all import image2tensor, Image, download_images, Path, nn, to
 
 download_images(Path("/content"), urls=["https://github.com/fastai/course20/raw/master/fastbook/images/grizzly.jpg"], preserve_filename=True)
 im = image2tensor(Image.open(Path("/content/grizzly.jpg")))
-input.shape
+im.shape
 ```
 torch.Size([1, 3, 1000, 846])
 
