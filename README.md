@@ -60,6 +60,8 @@ III. Foundations of Deep Learning
  - [Notebook](https://github.com/fastai/fastbook/blob/master/14_resnet.ipynb)
  - [Questionnaire](questionnaires/chapter_14.md)
 15. Application Architectures Deep Dive
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/15_arch_details.ipynb)
+ - [Questionnaire](questionnaires/chapter_15.md)
 16. The Training Process
 
 IV. Deep Learning from Scratch
