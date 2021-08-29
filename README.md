@@ -63,6 +63,8 @@ III. Foundations of Deep Learning
  - [Notebook](https://github.com/fastai/fastbook/blob/master/15_arch_details.ipynb)
  - [Questionnaire](questionnaires/chapter_15.md)
 16. The Training Process
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/16_accel_sgd.ipynb)
+ - [Questionnaire](questionnaires/chapter_16.md)
 
 IV. Deep Learning from Scratch
 
