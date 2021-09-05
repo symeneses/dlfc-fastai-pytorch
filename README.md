@@ -69,6 +69,8 @@ III. Foundations of Deep Learning
 IV. Deep Learning from Scratch
 
 17. A Neural Net from the Foundations
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/17_foundations.ipynb)
+ - [Questionnaire](questionnaires/chapter_17.md)
 18. CNN Interpretation with CAM
 19. A fastai Learner from Scratch
 20. Concluding Thoughts
