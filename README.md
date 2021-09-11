@@ -72,6 +72,8 @@ IV. Deep Learning from Scratch
  - [Notebook](https://github.com/fastai/fastbook/blob/master/17_foundations.ipynb)
  - [Questionnaire](questionnaires/chapter_17.md)
 18. CNN Interpretation with CAM
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/18_CAM.ipynb)
+ - [Questionnaire](questionnaires/chapter_18.md)
 19. A fastai Learner from Scratch
 20. Concluding Thoughts
 
