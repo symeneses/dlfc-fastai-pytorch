@@ -75,6 +75,8 @@ IV. Deep Learning from Scratch
  - [Notebook](https://github.com/fastai/fastbook/blob/master/18_CAM.ipynb)
  - [Questionnaire](questionnaires/chapter_18.md)
 19. A fastai Learner from Scratch
+ - [Notebook](https://github.com/fastai/fastbook/blob/master/19_learner.ipynb)
+ - [Questionnaire](questionnaires/chapter_19.md)
 20. Concluding Thoughts
 
 
